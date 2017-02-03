@@ -44,16 +44,53 @@ h1:hover
   margin-left: auto;
 }
 
-p {
+.p1 {
     border: none;
-    background-color: #A52A2A;
-    width: 90%;
+    background-color: #00bfff;
+    width: 95%;
     height: auto;
     margin-right: 1px;
     margin-left: 15px;
     margin-top: 1px;
     margin-bottom: 15px;
-    padding-right: 30px;
+    /*padding-right: 5px;*/
+    padding-top: 50px;
+    padding-left: 1px;
+    font-family: Helvetica;
+    color: white;
+    hyphens: auto;
+    text-align:justify;
+
+  }
+.p2 {
+    border: none;
+    background-color: #9613dc;
+    width: 95%;
+    height: auto;
+    margin-right: 1px;
+    margin-left: 15px;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    /*padding-right: 5px;*/
+    padding-top: 50px;
+    padding-left: 1px;
+    font-family: Helvetica;
+    color: white;
+    hyphens: auto;
+    text-align:justify;
+    
+
+  }
+.p3 {
+    border: none;
+    background-color: #c86432;
+    width: 95%;
+    height: auto;
+    margin-right: 1px;
+    margin-left: 15px;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    /*padding-right: 5px;*/
     padding-top: 50px;
     padding-left: 1px;
     font-family: Helvetica;
@@ -65,34 +102,46 @@ p {
 
 
 .titlebox {
+  
   float: right;
   width: 250px;
 }
 .titlebox1 {
+    
 
-    background-color: #ff0080;
-    border: 1px solid gray;
+    background-color: #bf8e00;
+    border: 2px 0px 2px 2px  solid black;
   
 }
 .titlebox2 {
   
-    background-color: #ff0080;
-    border: 1px solid gray;
+    background-color: #eacecf;
+    border: 2px 0 2px 2px  solid black;
   
 
 }
 .titlebox3 {
   
-    background-color: #ff0080;
-    border: 1px solid gray;
+    background-color: #ff5aa5;
+    border: 2px 0 2px 2px  solid black;
    
 
 }
-div.menu_entry {
+div.menu_entry1 {
     box-sizing: border-box;
-    border: 1px ;
+    background-color: #00bfff;
+    border: 1px solid black ;
 }    
-
+div.menu_entry2 {
+    box-sizing: border-box;
+    background-color:   #9613dc;
+    border: 1px solid black ;
+}
+div.menu_entry3 {
+    box-sizing: border-box;
+    background-color:   #c86432;
+    border: 1px solid black ;
+}
 /********** Large devices only **********/
 @media (min-width: 992px) {
   
@@ -108,7 +157,7 @@ div.menu_entry {
   }
   .col-lg-4 {
         float: left;
-        /*border: 1px solid green;*/
+        /*border: 10px solid green;*/
         padding-left: 1px;
         padding-right: 1px;
         width: 31%;
@@ -209,7 +258,7 @@ div.menu_entry {
         /*border: 1px solid green;*/
         padding-left: 1px;
         padding-right: 1px;
-        width: 94.5%;
+        width: 94%;
         margin-right: 10px;
         margin-left: 10px;
         margin-top: 10px;
@@ -264,7 +313,7 @@ div.menu_entry {
          
         padding-left: 1px;
         padding-right: 1px;
-        width: 100%;
+        width: 94%;
         margin-right: 10px;
         margin-left: 10px;
         margin-top: 10px;
